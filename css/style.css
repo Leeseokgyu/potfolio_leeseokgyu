@@ -1,0 +1,64 @@
+header {
+    max-width: 1920px;
+    height: 1024px;
+    background-color: black;
+position: relative;
+}
+header .por {}
+header .por>ul {}
+header .por ul .one {
+    position: absolute;
+    font-size: 6rem;
+    color: white;
+    left:50%; transform: translateX(-50%);
+    top: 349px;
+}
+header .por ul .two {
+    position: absolute;
+    font-size: 5rem;
+    color: white;
+    left:50%; transform: translateX(-50%);
+    top: 458px;
+}
+header .por ul .three {
+    position: absolute;
+    font-size: 5rem;
+    color: white;
+    left:50%; transform: translateX(-50%);
+    top: 618px;
+}
+main .profile {
+    max-width: 1920px;
+    height: 1024px;
+    background-color: black;
+    position: relative;
+}
+main .profile .gnb {
+    background-color: red;
+    position: relative;
+}
+main .profile .gnb .one {
+    position: absolute;
+    color: white;
+    display: inline;
+    left: 1439px;
+}
+main .profile .gnb .two {
+    position: absolute;
+    color: white;
+    display: inline;
+    left: 1528px;
+}
+main .profile .gnb .three {
+    position: absolute;
+    color: white;
+    display: inline;
+    left: 1599px;
+}
+main .profile>img {
+    position: absolute;
+    width: 264px;
+    height: 280px;
+    left: 402px;
+    top: 367px;
+}
