@@ -54,7 +54,7 @@ main .web .info ul {margin:0 0 50px;}
 main .web .info ul li {line-height:2;}
 main .web .info .link {display:flex;}
 main .web .info .link a {
-    background:#fff; color:#232323; padding:15px 35px; 
+    background:#fff; color:#232323; padding:15px 35px;
     font-weight: 700; font-size:18px;
     border-radius: 10px; border: 1px solid #232323;
 }
@@ -63,12 +63,25 @@ main .web .info .link a:hover {background:#232323; color:#fff;}
 /* 디자인 공통 부분 */
 main .design {
     background:#f1f1f1; padding:50px 0;
-    display:flex; flex-flow:column nowrap; 
+    display:flex; flex-flow:column nowrap;
     align-items: center; justify-content: center; gap:50px;
 }
 main .design h1 {font-size:32px; font-weight: 700;}
-main .design .container {padding:50px 0; width:1000px; margin:0 auto;}
+main .design .container {padding:50px 0; width:1800px; margin:0 auto;}
 /* ★★★★★★디자인 개별 수정 부분(아래부터 작성)*/
-main .sns .container {}
+.container .swiper {}
+.container .swiper-container .swiper-wrapper {}
+.container .swiper-container .swiper-wrapper .swiper-slide {}
+.container .swiper .swiper-wrapper .swiper-slide img {width: 100%;}
+/* next, prev */
+.container .swiper-container .swiper-button-prev {}
+.container .swiper-container .swiper-button-next {}
+/* group */
+.container .swiper-container .swiper-button-prev,
+.container .swiper-container .swiper-button-next {}
+/* hover */
+.container .swiper .swiper-button-prev:hover,
+.container .swiper .swiper-button-next:hover {color:#fac;}
+
 main .bnr .container {}
 main .details .container {}
