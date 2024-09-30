@@ -72,7 +72,7 @@ main .design .container {padding:50px 0; width:1800px; margin:0 auto;}
 .container .swiper {}
 .container .swiper-container .swiper-wrapper {}
 .container .swiper-container .swiper-wrapper .swiper-slide {}
-.container .swiper .swiper-wrapper .swiper-slide img {width: 100%;}
+.container .swiper .swiper-wrapper .swiper-slide img {width: 100%; height: 600px;}
 /* next, prev */
 .container .swiper-container .swiper-button-prev {}
 .container .swiper-container .swiper-button-next {}
