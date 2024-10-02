@@ -37,7 +37,7 @@ main .profile .info .right h2 {font-size:26px; font-weight: 700; margin:0 0 20px
 main .profile .info .right ul {margin:0 0 50px;}
 main .profile .info .right ul li {line-height:1.8; color:#ddd;}
 main .profile .info .right .list {}
-main .profile .info .right .list img {width:50px;}/*스킬 아이콘 공통 크기*/
+main .profile .info .right .list img {width:35px;margin-right: 10px;}/*스킬 아이콘 공통 크기*/
 /* 프로젝트 공통 영역 */
 main .project {margin:0 0 150px; min-width:1000px;}
 /* 웹프로젝트 공통 */
