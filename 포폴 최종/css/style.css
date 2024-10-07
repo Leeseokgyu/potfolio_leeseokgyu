@@ -1,0 +1,96 @@
+/* 배경 장식 라인 */
+.line {
+    position:fixed; z-index:999;
+    background:#888;
+}
+.x {width:100vw; height:2px; top:40px; left:0;}
+.y {width:2px; height:100vh; top:0; left:40px;}
+html, body {background:#232323;}
+nav {position:fixed; right:20px; top:13px; z-index:999;}
+nav a {color:#fff; margin-left:20px;}
+nav a:hover {color:#aaa;}
+/* intro */
+main {}
+main .intro {height:100vh; display:flex; align-items: center; justify-content: center;}
+main .intro .txt {text-align: center;}
+main .intro .txt * {color:#fff;}
+main .intro .txt p {font-size:20px;}
+main .intro .txt h1 {margin:10px 0; font-size:80px;}
+main .intro .txt h2 {font-size:42px;}
+/* profile */
+main .profile {height:100vh; padding-top:20vh;}
+main .profile * {color:#fff;}
+main .profile h1 {width:1000px; margin:0 auto; font-size:30px; line-height:1.7;}
+main .profile h1 span {font-size:45px;}
+main .profile .info {
+    width:1000px; margin:30px auto;
+    display:flex; align-items: center;
+}
+main .profile .info .left {}
+main .profile .info .left .photo {width:300px;}
+main .profile .info .left .photo img {width:100%;}
+main .profile .info .left ul {margin-top:50px;}
+main .profile .info .left ul li {line-height:1.8; text-align: center;}
+/* 프로필 오른쪽영역 */
+main .profile .info .right {margin-left:200px;}
+main .profile .info .right h2 {font-size:26px; font-weight: 700; margin:0 0 20px;}
+main .profile .info .right ul {margin:0 0 50px;}
+main .profile .info .right ul li {line-height:1.8; color:#ddd;}
+main .profile .info .right .list {}
+main .profile .info .right .list img {width:35px;margin-right: 10px;}/*스킬 아이콘 공통 크기*/
+/* 프로젝트 공통 영역 */
+main .project {margin:0 0 150px; min-width:1000px;}
+/* 웹프로젝트 공통 */
+main .web {
+    background:#f1f1f1; padding:50px 0;
+    display:flex; align-items: center; justify-content: center; gap:50px;
+}
+main .web .thum {width:500px;}/*★★★★★★이미지크기*/
+main .web .thum img {width:100%;}
+main .web .info {}
+main .web .info h1 {font-size:32px; font-weight: 700;}
+main .web .info h1+p {font-size:20px; margin:10px 0 25px;}
+main .web .info ul {margin:0 0 50px;}
+main .web .info ul li {line-height:2;}
+main .web .info .link {display:flex;}
+main .web .info .link a {
+    background:#fff; color:#232323; padding:15px 35px;
+    font-weight: 700; font-size:18px;
+    border-radius: 10px; border: 1px solid #232323;
+}
+main .web .info .link a:last-child {margin-left:10px;}
+main .web .info .link a:hover {background:#232323; color:#fff;}
+/* 디자인 공통 부분 */
+main .design {
+    background:#f1f1f1; padding:50px 0;
+    display:flex; flex-flow:column nowrap;
+    align-items: center; justify-content: center; gap:50px;
+}
+main .design h1 {font-size:32px; font-weight: 700;}
+main .design .container {padding:50px 0; width:1800px; margin:0 auto;}
+/* ★★★★★★디자인 개별 수정 부분(아래부터 작성)*/
+.container .swiper {}
+.container .swiper-container .swiper-wrapper {}
+.container .swiper-container .swiper-wrapper .swiper-slide {}
+.container .swiper .swiper-wrapper .swiper-slide img {width: 100%;}
+/* next, prev */
+.container .swiper-container .swiper-button-prev {}
+.container .swiper-container .swiper-button-next {}
+/* group */
+.container .swiper-container .swiper-button-prev,
+.container .swiper-container .swiper-button-next {}
+/* hover */
+.container .swiper .swiper-button-prev:hover,
+.container .swiper .swiper-button-next:hover {color:#fac;}
+
+main .bnr .container {}
+main .details .container {}
+/* 배너 css */
+
+#bn .container .swiper {width: 1700px;}
+#bn .container .swiper-container .swiper-wrapper {}
+#bn .container .swiper-container .swiper-wrapper .swiper-slide {}
+#bn .container .swiper .swiper-wrapper .swiper-slide img {width: 100%;}
+/* hover */
+#bn .container .swiper .swiper-button-prev:hover,
+#bn .container .swiper .swiper-button-next:hover {color:#fac;}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+}
+* {box-sizing: border-box;}
+html,body,h1,h2,h3,h4.h5,h6,p,ul,ol,li,dl,dt,dd,table,tr,td,th,thead.tfoot,tbody,
+form, fieldset, legend, input, textarea, button,div, section, article, header, 
+nav, main, aside, footer, address, figure, figcaption, sup, em, strong, span, i, del, 
+s, a, code, mark {
+    margin: 0; padding: 0; line-height: 1.0;
+    font-size: 1.0em; font-weight: 400; font-style: normal;
+    color: #000; list-style: none;
+    font-family: "Pretendard-Regular", sans-serif;
+}
+a {text-decoration: none;}
+table, tr, td, th {border-collapse: collapse;}
+button {cursor: pointer;}
+
