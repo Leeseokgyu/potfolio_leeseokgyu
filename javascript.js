@@ -21,9 +21,10 @@ let slide2 = new Swiper('#bn .swiper',{
 })
 let slide3 = new Swiper('#de .swiper',{
     direction:'horizontal',
-    autoplay:{delay:3000,},
-    loop:true,
+    // autoplay:{delay:3000,},
+    //loop:true,
     slidesPerView:2,
+    spaceBetween:20,
     navigation:{
         nextEl:'#de .swiper-button-next',
         prevEl:'#de .swiper-button-prev'

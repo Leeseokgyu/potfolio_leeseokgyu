@@ -95,10 +95,11 @@ main .details .container {}
 #bn .container .swiper .swiper-button-prev:hover,
 #bn .container .swiper .swiper-button-next:hover {color:#fff;}
 /* 디테일 css */
-#de .container .swiper {width: 1700px; height: 600px;}
+#de .container .swiper {width: 1200px; height: 600px;}
 #de .container .swiper-container .swiper-wrapper {}
 #de .container .swiper-container .swiper-wrapper .swiper-slide {}
-#de .container .swiper .swiper-wrapper .swiper-slide img {width: 100%; transform: translateY(-400px);}
+#de .container .swiper .swiper-wrapper .swiper-slide img {width: 100%;}
+#de .container .swiper .swiper-wrapper .first img {transform: translateY(-1000px);}
 /* hover */
 #de .container .swiper .swiper-button-prev:hover,
 #de .container .swiper .swiper-button-next:hover {color:#fff;}

@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="javascript.js" defer></script>
-
+    <style>
+        .big_details {
+            position:fixed; left:0; top:0; z-index:999; 
+            background:rgba(0,0,0,0.8); width:100%; height:100vh; overflow-y:auto; padding-top:50px;
+            text-align: center;
+            display:none;
+        }
+    </style>
 </head>
 <body>
     <!-- 장식 선 -->
@@ -177,16 +184,37 @@
             <div class="container">
                 <div class="swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide slide1">
-                            <img class="detail1" src="img/detail.png" alt="">
-                        </div>
+                        <div class="swiper-slide slide first"><img src="img/detail1.png" alt=""></div>
+                        <div class="swiper-slide slide"><img src="img/bn1.png" alt=""></div>
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
-                <!-- 내용 추가부분 -->
             </div>
         </div>
+        <div class="big_details" title="아무곳이나 클릭하면 닫힙니다.">
+            <img src="" alt="">
+        </div>
     </main>
+    <script>
+
+        //상세페이지 클릭 시 팝업 띄우는 스크립트
+        const details_img = document.querySelectorAll('#de .swiper .slide img')
+        const details_big = document.querySelector('.big_details');
+        console.log(details_img)
+
+        for(let i of details_img){
+            i.addEventListener('click',()=>{
+                console.log('test')
+                details_big.style.display = 'block';
+                details_big.scrollTo(0,0);
+                details_big.children[0].src = i.src
+            })
+        }
+        details_big.addEventListener('click',function(){
+            details_big.style.display = 'none';
+        })
+
+    </script>
 </body>
 </html>
