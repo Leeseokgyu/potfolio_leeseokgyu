@@ -99,7 +99,7 @@ main .details .container {}
 #de .container .swiper-container .swiper-wrapper {}
 #de .container .swiper-container .swiper-wrapper .swiper-slide {}
 #de .container .swiper .swiper-wrapper .swiper-slide img {width: 100%;}
-#de .container .swiper .swiper-wrapper .first img {transform: translateY(-1000px);}
+#de .container .swiper .swiper-wrapper .first img {transform: translateY(-950px);}
 /* hover */
 #de .container .swiper .swiper-button-prev:hover,
 #de .container .swiper .swiper-button-next:hover {color:#fff;}
